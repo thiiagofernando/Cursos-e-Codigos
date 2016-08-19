@@ -1,0 +1,9 @@
+C:\Projetos\aula1\wfaVariaveis\wfaVariaveis\bin\Debug\wfaVariaveis.exe.config
+C:\Projetos\aula1\wfaVariaveis\wfaVariaveis\bin\Debug\wfaVariaveis.exe
+C:\Projetos\aula1\wfaVariaveis\wfaVariaveis\bin\Debug\wfaVariaveis.pdb
+C:\Projetos\aula1\wfaVariaveis\wfaVariaveis\obj\Debug\wfaVariaveis.csprojResolveAssemblyReference.cache
+C:\Projetos\aula1\wfaVariaveis\wfaVariaveis\obj\Debug\wfaVariaveis.Properties.Resources.resources
+C:\Projetos\aula1\wfaVariaveis\wfaVariaveis\obj\Debug\wfaVariaveis.csproj.GenerateResource.Cache
+C:\Projetos\aula1\wfaVariaveis\wfaVariaveis\obj\Debug\wfaVariaveis.exe
+C:\Projetos\aula1\wfaVariaveis\wfaVariaveis\obj\Debug\wfaVariaveis.pdb
+C:\Projetos\aula1\wfaVariaveis\wfaVariaveis\obj\Debug\wfaVariaveis.Form1.resources

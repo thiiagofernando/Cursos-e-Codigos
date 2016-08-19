@@ -1,0 +1,9 @@
+F:\Curso TDS\Projetos\aula3\wfaArray\wfaArray\bin\Debug\wfaArray.exe.config
+F:\Curso TDS\Projetos\aula3\wfaArray\wfaArray\bin\Debug\wfaArray.exe
+F:\Curso TDS\Projetos\aula3\wfaArray\wfaArray\bin\Debug\wfaArray.pdb
+F:\Curso TDS\Projetos\aula3\wfaArray\wfaArray\obj\Debug\wfaArray.csprojResolveAssemblyReference.cache
+F:\Curso TDS\Projetos\aula3\wfaArray\wfaArray\obj\Debug\wfaArray.Form1.resources
+F:\Curso TDS\Projetos\aula3\wfaArray\wfaArray\obj\Debug\wfaArray.Properties.Resources.resources
+F:\Curso TDS\Projetos\aula3\wfaArray\wfaArray\obj\Debug\wfaArray.csproj.GenerateResource.Cache
+F:\Curso TDS\Projetos\aula3\wfaArray\wfaArray\obj\Debug\wfaArray.exe
+F:\Curso TDS\Projetos\aula3\wfaArray\wfaArray\obj\Debug\wfaArray.pdb

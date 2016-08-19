@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html">
+<head>
+    <title>Checkout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="nav navbar-inverse">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Loja Virtual</a>
+            <button type="button" class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <ul class="nav navbar-nav collapse navbar-collapse">
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Contatos</a></li>
+            <li><a href="#">Sobre</a></li>
+        </ul>
+    </nav>
+    <div class="jumbotron" style="background-color:#551A8B">
+        <div class="container" style="color:#EEE9E9">
+            <h1>Checkout do Produto</h1>
+            <p>
+                Obrigado Pela Preferencia na nossa loja!!
+                 informe os seus dados para finalizar a compra
+            </p>
+        </div>
+        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Sua Compra</h2>
+                    </div>
+                    <div class="panel-body">
+
+                        <img src="Imagens/teclado01.jpg" class="img-responsive img-thumbnail" />
+
+                        <dl>
+                            <dt>Produto</dt>
+                            <dd>Teclado Microsoft</dd>
+                            <dt>Cor</dt>
+                            <dd>Preto</dd>
+                            <dt>Tamanho</dt>
+                            <dd>Medio</dd>
+                            <dt>Preço</dt>
+                            <dd>R$149,99</dd>
+                        </dl>
+                    </div>
+
+                </div><!--Fim do Painel-->
+            </div>
+            <form class="col-sm-8">
+                <div class="row">
+                    <fieldset class="col-md-6">
+                        <legend>Dados Pessoais</legend>
+
+                        <div class="form-group">
+                            <label for="Nome">Nome Completo</label>
+                            <input type="text" class="form-control" id="Nome" placeholder="Nome Completo" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Email">Email</label>
+                            <input type="email" class="form-control" id="Email" placeholder="Seu Email"/>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="cpf">CPF</label>
+                            <input type="text" class="form-control" id="cpf" placeholder="000.000.000-00" />
+
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="Sim" checked />
+                                Quer Receber Email da Loja
+                            </label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="col-md-6">
+                        <legend>Cartão de Credito</legend>
+
+                        <div class="form-group">
+                            <label for="NumeroCartao">Nº do Cartão</label>
+                            <input type="text" class="form-control" id="NumeroCartao" />
+                        </div>
+                        <div class="form-group">
+                            <label for="BandeiraCartao">Bandeira</label>
+                            <select id="BandeiraCartao" class="form-control">
+                                <option>Master</option>
+                                <option>Visa</option>
+                                <option>Elo</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="Validade">Validade</label>
+                            <input type="month" class="form-control" id="Validade" />
+                        </div>
+                    </fieldset>
+                </div>
+                <button class="btn btn-primary">
+                    <span class="glyphicon glyphicon-thumbs-up"></span>
+                    Confirma Pedido
+                </button>
+            </form>
+        </div><!--fim da row--->
+    </div>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>

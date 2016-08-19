@@ -1,0 +1,8 @@
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\wfaHeranca\wfaHeranca\bin\Debug\wfaHeranca.exe.config
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\wfaHeranca\wfaHeranca\obj\Debug\wfaHeranca.Form1.resources
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\wfaHeranca\wfaHeranca\obj\Debug\wfaHeranca.Properties.Resources.resources
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\wfaHeranca\wfaHeranca\obj\Debug\wfaHeranca.csproj.GenerateResource.Cache
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\wfaHeranca\wfaHeranca\bin\Debug\wfaHeranca.exe
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\wfaHeranca\wfaHeranca\bin\Debug\wfaHeranca.pdb
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\wfaHeranca\wfaHeranca\obj\Debug\wfaHeranca.exe
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\wfaHeranca\wfaHeranca\obj\Debug\wfaHeranca.pdb

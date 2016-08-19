@@ -1,0 +1,33 @@
+﻿@model IEnumerable<OnTheLine.Models.BD.Foto>
+
+@{
+    ViewBag.Title = "Listar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Listar</h2>
+<h3>Cadastrar Nova Foto</h3>
+   <form action="~/Foto/Create" method="post" enctype="multipart/form-data">
+       <input type="hidden" name="AlbumId" value="@ViewBag.AlbumID"/>
+
+       Foto
+       <input type="file" name="Foto" class="form-control"/>
+       Descrição
+       <textarea name="descricao" maxlength="500" class="form-control"></textarea>
+       <br />
+       <input type="submit" value="Cadastrar" class="btn btn-success"/>
+       <br /><br />
+       
+   </form>
+
+@foreach (var item in Model) {
+
+    <div class="col-sm-3">
+        <img src="@item.Caminho" class="img-responsive img-thumbnail"/>
+        <p>
+            @item.Descricao
+        </p>
+    </div>
+
+}
+

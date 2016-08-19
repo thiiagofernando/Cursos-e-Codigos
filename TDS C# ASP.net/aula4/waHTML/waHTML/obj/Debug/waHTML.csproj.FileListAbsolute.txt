@@ -1,0 +1,5 @@
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\waHTML\waHTML\bin\waHTML.dll.config
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\waHTML\waHTML\bin\waHTML.dll
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\waHTML\waHTML\bin\waHTML.pdb
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\waHTML\waHTML\obj\Debug\waHTML.dll
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\waHTML\waHTML\obj\Debug\waHTML.pdb

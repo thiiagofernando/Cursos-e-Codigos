@@ -1,0 +1,59 @@
+﻿@model IEnumerable<TDSClientes.Models.Cliente>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Clientes</h2>
+
+<p>
+    @Html.ActionLink("Novo Cliente", "Cadastrar")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Codigo
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sobrenome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LimiteCompras)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Codigo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sobrenome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LimiteCompras)
+        </td>
+        <td>
+            <a href="~/Cliente/Editar/@item.Codigo" class="btn btn-warning" title="Editar Cliente"><span class="glyphicon glyphicon-edit"></span></a>
+
+            <a href="~/Cliente/Deletar/@item.Codigo" class="btn btn-danger" title="Excluir Cliente" onclick="return confirm('Deseja realmente excluir o cliente @item.Nome')"><span class="glyphicon glyphicon-trash"></span></a>
+
+        </td>
+    </tr>
+}
+
+</table>

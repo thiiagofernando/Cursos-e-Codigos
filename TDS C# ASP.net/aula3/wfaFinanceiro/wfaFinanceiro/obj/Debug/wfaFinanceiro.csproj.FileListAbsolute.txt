@@ -1,0 +1,9 @@
+F:\Curso TDS\Projetos\aula3\wfaFinanceiro\wfaFinanceiro\bin\Debug\wfaFinanceiro.exe.config
+F:\Curso TDS\Projetos\aula3\wfaFinanceiro\wfaFinanceiro\bin\Debug\wfaFinanceiro.exe
+F:\Curso TDS\Projetos\aula3\wfaFinanceiro\wfaFinanceiro\bin\Debug\wfaFinanceiro.pdb
+F:\Curso TDS\Projetos\aula3\wfaFinanceiro\wfaFinanceiro\obj\Debug\wfaFinanceiro.Form1.resources
+F:\Curso TDS\Projetos\aula3\wfaFinanceiro\wfaFinanceiro\obj\Debug\wfaFinanceiro.Properties.Resources.resources
+F:\Curso TDS\Projetos\aula3\wfaFinanceiro\wfaFinanceiro\obj\Debug\wfaFinanceiro.csproj.GenerateResource.Cache
+F:\Curso TDS\Projetos\aula3\wfaFinanceiro\wfaFinanceiro\obj\Debug\wfaFinanceiro.exe
+F:\Curso TDS\Projetos\aula3\wfaFinanceiro\wfaFinanceiro\obj\Debug\wfaFinanceiro.pdb
+F:\Curso TDS\Projetos\aula3\wfaFinanceiro\wfaFinanceiro\obj\Debug\wfaFinanceiro.csprojResolveAssemblyReference.cache

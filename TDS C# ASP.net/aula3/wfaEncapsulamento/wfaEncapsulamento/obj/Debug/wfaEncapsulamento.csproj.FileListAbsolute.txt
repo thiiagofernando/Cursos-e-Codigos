@@ -1,0 +1,9 @@
+F:\Curso TDS\Projetos\aula3\wfaEncapsulamento\wfaEncapsulamento\bin\Debug\wfaEncapsulamento.exe.config
+F:\Curso TDS\Projetos\aula3\wfaEncapsulamento\wfaEncapsulamento\bin\Debug\wfaEncapsulamento.exe
+F:\Curso TDS\Projetos\aula3\wfaEncapsulamento\wfaEncapsulamento\bin\Debug\wfaEncapsulamento.pdb
+F:\Curso TDS\Projetos\aula3\wfaEncapsulamento\wfaEncapsulamento\obj\Debug\wfaEncapsulamento.csprojResolveAssemblyReference.cache
+F:\Curso TDS\Projetos\aula3\wfaEncapsulamento\wfaEncapsulamento\obj\Debug\wfaEncapsulamento.Form1.resources
+F:\Curso TDS\Projetos\aula3\wfaEncapsulamento\wfaEncapsulamento\obj\Debug\wfaEncapsulamento.Properties.Resources.resources
+F:\Curso TDS\Projetos\aula3\wfaEncapsulamento\wfaEncapsulamento\obj\Debug\wfaEncapsulamento.csproj.GenerateResource.Cache
+F:\Curso TDS\Projetos\aula3\wfaEncapsulamento\wfaEncapsulamento\obj\Debug\wfaEncapsulamento.exe
+F:\Curso TDS\Projetos\aula3\wfaEncapsulamento\wfaEncapsulamento\obj\Debug\wfaEncapsulamento.pdb

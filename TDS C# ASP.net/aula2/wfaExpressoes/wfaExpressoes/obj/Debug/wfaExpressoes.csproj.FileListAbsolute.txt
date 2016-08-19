@@ -1,0 +1,8 @@
+C:\Projetos\aula2\wfaExpressoes\wfaExpressoes\bin\Debug\wfaExpressoes.exe.config
+C:\Projetos\aula2\wfaExpressoes\wfaExpressoes\obj\Debug\wfaExpressoes.Form1.resources
+C:\Projetos\aula2\wfaExpressoes\wfaExpressoes\obj\Debug\wfaExpressoes.Properties.Resources.resources
+C:\Projetos\aula2\wfaExpressoes\wfaExpressoes\obj\Debug\wfaExpressoes.csproj.GenerateResource.Cache
+C:\Projetos\aula2\wfaExpressoes\wfaExpressoes\bin\Debug\wfaExpressoes.exe
+C:\Projetos\aula2\wfaExpressoes\wfaExpressoes\bin\Debug\wfaExpressoes.pdb
+C:\Projetos\aula2\wfaExpressoes\wfaExpressoes\obj\Debug\wfaExpressoes.exe
+C:\Projetos\aula2\wfaExpressoes\wfaExpressoes\obj\Debug\wfaExpressoes.pdb

@@ -1,0 +1,33 @@
+﻿@model List<MvcModel.Models.Produto>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h2>Pagina Inicial de Produtos</h2>
+    <h3>Bem vindo @ViewBag.usuario</h3>
+    <label></label>
+    <div> 
+        @foreach (var prod in Model)
+        {
+          
+        <ul>
+            <li>Nome: @prod.Descricao</li>
+            <li>Codigo: @prod.Codigo</li>
+            @if (@prod.Valor >= 3000)
+            {
+                <li style="background-color:red">Valor: @prod.Valor.ToString("C")</li>
+            }
+            else
+            {
+                <li style="background-color:green">Valor: @prod.Valor.ToString("C")</li>
+            }
+            
+        </ul>
+        }
+    </div>
+</body>
+</html>

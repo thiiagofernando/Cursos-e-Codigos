@@ -1,0 +1,6 @@
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\bootstrap\bootstrap\bin\bootstrap.dll.config
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\bootstrap\bootstrap\bin\bootstrap.dll
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\bootstrap\bootstrap\bin\bootstrap.pdb
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\bootstrap\bootstrap\obj\Debug\bootstrap.csprojResolveAssemblyReference.cache
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\bootstrap\bootstrap\obj\Debug\bootstrap.dll
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\bootstrap\bootstrap\obj\Debug\bootstrap.pdb

@@ -1,0 +1,40 @@
+﻿@model MvcModel.ViewModel.ClienteViewModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+       <h3>Bem Vindo @Model.Usuario</h3>
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                Codigo
+            </th>
+            <th>
+                Nome
+            </th>
+            <th>
+                Credito
+            </th>
+            </tr>
+            <tr>
+                <td>
+                    @Model.Codigo
+                </td>
+                <td>
+                    @Model.Nome
+                </td>
+                <td style="background-color: @Model.Cor">
+
+                    @Model.Credito
+                </td>
+            </tr>
+    </table>
+</body>
+</html>

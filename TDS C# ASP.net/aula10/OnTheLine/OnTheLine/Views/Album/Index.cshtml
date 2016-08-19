@@ -1,0 +1,64 @@
+﻿@model IEnumerable<OnTheLine.Models.BD.Album>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Galeria</h2>
+
+<p>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+        Novo Album
+    </button>
+</p>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-sm-3">
+            <a href="~/Album/Listar/@item.AlgumID">
+                <h3>@item.Titulo</h3>
+                <img src="@Html.DisplayFor(modelItem => item.Capa)" class="img-responsive img-thumbnail" />
+            </a>
+        </div>
+
+            <!--a href="~/Album/Edit/@item.AlgumID" class="btn btn-warning" title="Editar Album"><span class="glyphicon glyphicon-edit"></span></a>-->
+    }
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Novo Album</h4>
+            </div>
+            <div class="modal-body">
+                
+                <form action="~/Album/Create" method="post" enctype="multipart/form-data">
+                    @Html.AntiForgeryToken()
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            Titulo do Album
+                            <input type="text" name="Titulo" class="form-control" required/>
+
+                            Capa do Album
+                            <input type="file" name="Foto" class="form-control" required/>
+
+                            <p>
+                                <br />
+                                <input type="submit" class="btn btn-success" value="Salvar"/>
+                            </p>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                
+            </div>
+        </div>
+    </div>
+</div>

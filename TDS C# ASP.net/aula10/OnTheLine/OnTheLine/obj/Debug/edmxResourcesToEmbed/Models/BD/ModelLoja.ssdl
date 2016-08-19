@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BdLojaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Album">
+    <Key>
+      <PropertyRef Name="AlgumID" />
+    </Key>
+    <Property Name="AlgumID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Titulo" Type="nvarchar" MaxLength="500" />
+    <Property Name="Capa" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="Foto">
+    <Key>
+      <PropertyRef Name="FotoID" />
+    </Key>
+    <Property Name="FotoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descricao" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Caminho" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="AlbumID" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Foto_AlbumID">
+    <End Role="Album" Type="Self.Album" Multiplicity="1" />
+    <End Role="Foto" Type="Self.Foto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Album">
+        <PropertyRef Name="AlgumID" />
+      </Principal>
+      <Dependent Role="Foto">
+        <PropertyRef Name="AlbumID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BdLojaModelStoreContainer">
+    <EntitySet Name="Album" EntityType="Self.Album" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Foto" EntityType="Self.Foto" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Foto_AlbumID" Association="Self.FK_Foto_AlbumID">
+      <End Role="Album" EntitySet="Album" />
+      <End Role="Foto" EntitySet="Foto" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

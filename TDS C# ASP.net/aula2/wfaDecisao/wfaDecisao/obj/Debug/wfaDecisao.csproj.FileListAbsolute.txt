@@ -1,0 +1,8 @@
+C:\Projetos\aula2\wfaDecisao\wfaDecisao\bin\Debug\wfaDecisao.exe.config
+C:\Projetos\aula2\wfaDecisao\wfaDecisao\bin\Debug\wfaDecisao.exe
+C:\Projetos\aula2\wfaDecisao\wfaDecisao\bin\Debug\wfaDecisao.pdb
+C:\Projetos\aula2\wfaDecisao\wfaDecisao\obj\Debug\wfaDecisao.Form1.resources
+C:\Projetos\aula2\wfaDecisao\wfaDecisao\obj\Debug\wfaDecisao.Properties.Resources.resources
+C:\Projetos\aula2\wfaDecisao\wfaDecisao\obj\Debug\wfaDecisao.csproj.GenerateResource.Cache
+C:\Projetos\aula2\wfaDecisao\wfaDecisao\obj\Debug\wfaDecisao.exe
+C:\Projetos\aula2\wfaDecisao\wfaDecisao\obj\Debug\wfaDecisao.pdb

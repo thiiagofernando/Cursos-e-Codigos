@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Consulta CEP</title>
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+<nav class="nav navbar-default">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">Informe o CEP</a>
+    </div>
+    <form class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input type="number" id="CEP" class="form-control" placeholder="Informe o CEP">
+  </div>
+</form>
+</nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Busca CEP</h2>
+                <hr/>
+                <br />
+                <label for="cepmostrar">CEP</label>
+                <input type="tex" id="cepmostrar" class="form-control" readonly/>
+
+                <label for="logradouro">Logradouro</label>
+                <input type="text" id="logradouro" class="form-control" readonly />
+
+                <label for="complemento">Bairro</label>
+                <input type="text" id="bairro" class="form-control" readonly />
+
+                <label for="Cidade">Cidade</label>
+                <input type="text" id="localidade" class="form-control" readonly/>
+
+                <label for="UF">Estado</label>
+                <input type="text" id="uf" class="form-control" readonly />
+
+                <br />
+                <!--button class="btn btn-success" id="pesquisar">Pesquisar</button-->
+                <br />
+                <progress style="display:none"></progress>
+                
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/scripts.js"></script>
+</body>
+</html>

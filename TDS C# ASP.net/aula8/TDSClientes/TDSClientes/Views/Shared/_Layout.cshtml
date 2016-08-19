@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TDS Controle de Clientes</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="nav navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="~/Home/Index" class="navbar-brand">
+                <span class="glyphicon glyphicon-cloud"></span>
+                    TDS - Clientes
+                </a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="~/Cliente/Index">Listar de Cliente</a></li>
+                <li><a href="~/Cliente/Cadastrar">Cadastrar Cliente</a></li>
+            </ul>
+        </div> 
+        </div>
+        <div class="container">
+            @RenderBody()
+        </div>
+        <footer class="container">
+            TDS - Controle de Clientes
+        </footer>
+</body>
+</html>

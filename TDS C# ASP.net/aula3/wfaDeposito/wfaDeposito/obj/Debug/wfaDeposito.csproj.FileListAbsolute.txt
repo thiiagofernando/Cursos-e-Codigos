@@ -1,0 +1,9 @@
+F:\Curso TDS\Projetos\aula3\wfaDeposito\wfaDeposito\bin\Debug\wfaDeposito.exe.config
+F:\Curso TDS\Projetos\aula3\wfaDeposito\wfaDeposito\bin\Debug\wfaDeposito.exe
+F:\Curso TDS\Projetos\aula3\wfaDeposito\wfaDeposito\bin\Debug\wfaDeposito.pdb
+F:\Curso TDS\Projetos\aula3\wfaDeposito\wfaDeposito\obj\Debug\wfaDeposito.csprojResolveAssemblyReference.cache
+F:\Curso TDS\Projetos\aula3\wfaDeposito\wfaDeposito\obj\Debug\wfaDeposito.Form1.resources
+F:\Curso TDS\Projetos\aula3\wfaDeposito\wfaDeposito\obj\Debug\wfaDeposito.Properties.Resources.resources
+F:\Curso TDS\Projetos\aula3\wfaDeposito\wfaDeposito\obj\Debug\wfaDeposito.csproj.GenerateResource.Cache
+F:\Curso TDS\Projetos\aula3\wfaDeposito\wfaDeposito\obj\Debug\wfaDeposito.exe
+F:\Curso TDS\Projetos\aula3\wfaDeposito\wfaDeposito\obj\Debug\wfaDeposito.pdb

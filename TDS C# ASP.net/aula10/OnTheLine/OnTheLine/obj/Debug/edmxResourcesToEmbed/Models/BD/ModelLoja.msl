@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BdLojaModelStoreContainer" CdmEntityContainer="BdLoja">
+    <EntitySetMapping Name="Album">
+      <EntityTypeMapping TypeName="BdLojaModel.Album">
+        <MappingFragment StoreEntitySet="Album">
+          <ScalarProperty Name="AlgumID" ColumnName="AlgumID" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Capa" ColumnName="Capa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Foto">
+      <EntityTypeMapping TypeName="BdLojaModel.Foto">
+        <MappingFragment StoreEntitySet="Foto">
+          <ScalarProperty Name="FotoID" ColumnName="FotoID" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Caminho" ColumnName="Caminho" />
+          <ScalarProperty Name="AlbumID" ColumnName="AlbumID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

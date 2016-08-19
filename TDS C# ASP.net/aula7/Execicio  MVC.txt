@@ -1,0 +1,12 @@
+criar um projeto mvc ExecicioMVC
+
+criar um controller (Funcionario)
+
+ - Metodo:
+	- Um Metodo(GetFuncionario) que retorne a string  com o nome completo
+	- Um Metodo(Info) que retorne um view com todas as sua informações
+
+Funcionario
+Nome
+Matricula
+Salario

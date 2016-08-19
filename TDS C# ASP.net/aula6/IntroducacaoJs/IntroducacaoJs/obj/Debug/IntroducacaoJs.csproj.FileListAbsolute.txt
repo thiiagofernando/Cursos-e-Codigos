@@ -1,0 +1,6 @@
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula6\IntroducacaoJs\IntroducacaoJs\bin\IntroducacaoJs.dll.config
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula6\IntroducacaoJs\IntroducacaoJs\bin\IntroducacaoJs.dll
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula6\IntroducacaoJs\IntroducacaoJs\bin\IntroducacaoJs.pdb
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula6\IntroducacaoJs\IntroducacaoJs\obj\Debug\IntroducacaoJs.csprojResolveAssemblyReference.cache
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula6\IntroducacaoJs\IntroducacaoJs\obj\Debug\IntroducacaoJs.dll
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula6\IntroducacaoJs\IntroducacaoJs\obj\Debug\IntroducacaoJs.pdb

@@ -1,0 +1,9 @@
+C:\Projetos\aula2\wfaMetodos\wfaMetodos\bin\Debug\wfaMetodos.exe.config
+C:\Projetos\aula2\wfaMetodos\wfaMetodos\bin\Debug\wfaMetodos.exe
+C:\Projetos\aula2\wfaMetodos\wfaMetodos\bin\Debug\wfaMetodos.pdb
+C:\Projetos\aula2\wfaMetodos\wfaMetodos\obj\Debug\wfaMetodos.csprojResolveAssemblyReference.cache
+C:\Projetos\aula2\wfaMetodos\wfaMetodos\obj\Debug\wfaMetodos.Form1.resources
+C:\Projetos\aula2\wfaMetodos\wfaMetodos\obj\Debug\wfaMetodos.Properties.Resources.resources
+C:\Projetos\aula2\wfaMetodos\wfaMetodos\obj\Debug\wfaMetodos.csproj.GenerateResource.Cache
+C:\Projetos\aula2\wfaMetodos\wfaMetodos\obj\Debug\wfaMetodos.exe
+C:\Projetos\aula2\wfaMetodos\wfaMetodos\obj\Debug\wfaMetodos.pdb

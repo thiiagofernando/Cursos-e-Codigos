@@ -1,0 +1,6 @@
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\ClasseA\ClasseA\bin\ClasseA.dll.config
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\ClasseA\ClasseA\bin\ClasseA.dll
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\ClasseA\ClasseA\bin\ClasseA.pdb
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\ClasseA\ClasseA\obj\Debug\ClasseA.csprojResolveAssemblyReference.cache
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\ClasseA\ClasseA\obj\Debug\ClasseA.dll
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula4\ClasseA\ClasseA\obj\Debug\ClasseA.pdb

@@ -1,0 +1,20 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Funcionarios</title>
+</head>
+<body>
+    <h2>View Funcionarios</h2>
+    <div> 
+        @{
+            IntroducaoMvc.Controllers.Cliente cli = (IntroducaoMvc.Controllers.Cliente)ViewData["Cliente"];
+        }
+        Codigo: @cli.Codigo<br />
+        Nome: @cli.Nome<br />
+        Profissão : @cli.Profissacao
+    </div>
+</body>
+</html>

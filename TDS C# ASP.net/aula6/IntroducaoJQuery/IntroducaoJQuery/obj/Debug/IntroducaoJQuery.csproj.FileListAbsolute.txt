@@ -1,0 +1,6 @@
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula6\IntroducaoJQuery\IntroducaoJQuery\bin\IntroducaoJQuery.dll.config
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula6\IntroducaoJQuery\IntroducaoJQuery\bin\IntroducaoJQuery.dll
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula6\IntroducaoJQuery\IntroducaoJQuery\bin\IntroducaoJQuery.pdb
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula6\IntroducaoJQuery\IntroducaoJQuery\obj\Debug\IntroducaoJQuery.csprojResolveAssemblyReference.cache
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula6\IntroducaoJQuery\IntroducaoJQuery\obj\Debug\IntroducaoJQuery.dll
+C:\Users\ThiagoFernando\Dropbox\Curso TDS\Projetos\aula6\IntroducaoJQuery\IntroducaoJQuery\obj\Debug\IntroducaoJQuery.pdb

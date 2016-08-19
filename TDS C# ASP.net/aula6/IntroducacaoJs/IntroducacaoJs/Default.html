@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Introdução JS</title>
+    <meta charset="utf-8"/>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Calculo de IMC</h2>
+                <label for="Peso">Peso</label>
+                <input type="text" id="Peso" class="form-control"/>
+
+                <label for="Altura">Altura</label>
+                <input type="text" id="Altura" class="form-control" />
+                <br />
+                <br />
+                <button onclick="Calcular()" class="btn btn-success">Calcular</button>
+                <br />
+                <br />
+                <div id="Resultado"></div>
+            </div>
+        </div>
+
+    </div>
+    <script src="Scripts/calculos.js"></script>
+</body>
+</html>

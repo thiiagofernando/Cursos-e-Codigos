@@ -1,0 +1,11 @@
+C:\Projetos\aula2\wfaTratamentodeErro\wfaTratamentodeErro\bin\Debug\wfaTratamentodeErro.exe.config
+C:\Projetos\aula2\wfaTratamentodeErro\wfaTratamentodeErro\bin\Debug\wfaTratamentodeErro.exe
+C:\Projetos\aula2\wfaTratamentodeErro\wfaTratamentodeErro\bin\Debug\wfaTratamentodeErro.pdb
+C:\Projetos\aula2\wfaTratamentodeErro\wfaTratamentodeErro\obj\Debug\wfaTratamentodeErro.Form1.resources
+C:\Projetos\aula2\wfaTratamentodeErro\wfaTratamentodeErro\obj\Debug\wfaTratamentodeErro.Properties.Resources.resources
+C:\Projetos\aula2\wfaTratamentodeErro\wfaTratamentodeErro\obj\Debug\wfaTratamentodeErro.csproj.GenerateResource.Cache
+C:\Projetos\aula2\wfaTratamentodeErro\wfaTratamentodeErro\obj\Debug\wfaTratamentodeErro.exe
+C:\Projetos\aula2\wfaTratamentodeErro\wfaTratamentodeErro\obj\Debug\wfaTratamentodeErro.pdb
+D:\Curso TDS\Projetos\aula2\wfaTratamentodeErro\wfaTratamentodeErro\bin\Debug\wfaTratamentodeErro.exe.config
+D:\Curso TDS\Projetos\aula2\wfaTratamentodeErro\wfaTratamentodeErro\obj\Debug\wfaTratamentodeErro.exe
+D:\Curso TDS\Projetos\aula2\wfaTratamentodeErro\wfaTratamentodeErro\obj\Debug\wfaTratamentodeErro.pdb

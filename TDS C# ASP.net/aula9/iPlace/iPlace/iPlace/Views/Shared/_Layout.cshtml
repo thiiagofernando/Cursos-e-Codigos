@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iPlace</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="nav navbar-inverse">
+        <div class="container">
+            <div class="navbar-hearder">
+                <a href="/Produto" class="navbar-brand">
+                    <span class="glyphicon glyphicon-apple"></span>
+                    iPlace
+                </a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/Produto">Produtos</a></li>
+                <li><a href="/Produto/Create">Cadastrar Produtos</a></li>
+                <li><a href="/Cliente">Clientes</a></li>
+                <li><a href="/Cliente/Create">Cadastrar Cliente</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Sair</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        @RenderBody()
+    </div>
+    <footer class="container">
+        <hr />
+        iPlace @DateTime.Now.Year &reg;
+    </footer>
+
+    <script src="~/scripts/jquery-1.9.1.min.js"></script>
+</body>
+</html>

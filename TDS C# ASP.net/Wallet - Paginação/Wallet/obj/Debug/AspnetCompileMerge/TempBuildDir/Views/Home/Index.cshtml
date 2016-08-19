@@ -1,0 +1,22 @@
+﻿@model Wallet.Models.Usuario
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3>Bem Vindo(a) @CurrentUser.Nome</h3>
+<div class="row">
+    <div class="well col-sm-6">
+        <form method="post" action="~/Usuario/AlteraFoto" enctype="multipart/form-data">
+
+            <img src="~/Imagens/@Model.Foto" class="img-responsive img-thumbnail" width="120" height="120"/><br />
+            Alterar Foto
+            <input type="file" name="Foto" class="form-control"/><br />
+            <button type="submit" class="btn btn-success">Salvar Foto</button>
+            <p class="text-left">
+            Nome: @CurrentUser.Nome <br />
+            Email: @CurrentUser.Email
+            </p>
+        </form>
+    </div>
+    
+</div>

@@ -1,0 +1,55 @@
+﻿@model Wallet.ViewModels.LoginModel
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-4">
+        <h3>Login</h3>
+        @using (Html.BeginForm())
+        {
+
+            @*@Html.EditorForModel()*@
+            <label for="Email">Email</label>
+            <input type="email" name="Email" class="form-control" />
+            <label for="Senha">Senha</label>
+            <input type="password" name="Senha" class="form-control" />
+            <br /><br />
+            <button type="submit" class="btn btn-success">Login</button>
+            <br /><br />
+             <a class="alert-danger">@Html.ValidationSummary()</a>
+
+        }
+
+    </div>
+    <div class="col-sm-6 col-sm-offset-2">
+        <h3>Abra uma Conta</h3>
+        
+        <form action="~/Auth/Register" method="post">
+            Nome:
+            <input type="text" name="Nome" class="form-control"/>
+            E-mail:
+            <input type="email" name="Email" class="form-control"/>
+            Senha:
+            <input type="password" name="Senha" class="form-control"/>
+            Confirmar Senha:
+            <input type="password" name="ConfirmaSenha" class="form-control" />
+            <br />
+            
+                @if(ViewBag.Mensagem != null)
+                {
+                    <div class="alert alert-danger">
+                        @ViewBag.Mensagem
+                    </div>
+                }
+
+            <br />
+            <button type="submit" class="btn btn-primary">
+                Cadastrar
+            </button>
+
+        </form>
+    </div>
+</div>
+

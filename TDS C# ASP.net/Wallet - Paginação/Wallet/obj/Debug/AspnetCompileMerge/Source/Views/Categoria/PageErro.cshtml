@@ -1,0 +1,10 @@
+﻿@model Wallet.Models.Usuario
+@{
+    ViewBag.Title = "Error";
+}
+<meta http-equiv="refresh" content="4;url=/Categoria">
+<h3>@CurrentUser.Nome</h3>
+<p class="text-danger">
+    Categoria não pode ser excluida pois esta atribuida ao um lançamento<br />
+    Você deve excluir o Lançamento Antes
+</p>

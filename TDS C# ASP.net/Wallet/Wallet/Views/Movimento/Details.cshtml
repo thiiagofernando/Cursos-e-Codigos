@@ -1,0 +1,59 @@
+﻿@model Wallet.Models.Movimento
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Movimento</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NrPeriodo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NrPeriodo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtLancamento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtLancamento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Categoria.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categoria.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Usuario.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Usuario.Nome)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IDMovimento }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

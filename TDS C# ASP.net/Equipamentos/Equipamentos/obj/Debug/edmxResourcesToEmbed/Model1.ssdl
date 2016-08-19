@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PerifericosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Computadores">
+    <Key>
+      <PropertyRef Name="IDComputador" />
+    </Key>
+    <Property Name="IDComputador" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NrPratrimonio" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="IDDepartamento" Type="int" Nullable="false" />
+    <Property Name="IDTipo" Type="int" Nullable="false" />
+    <Property Name="IDMarca" Type="int" Nullable="false" />
+    <Property Name="IDProcessador" Type="int" Nullable="false" />
+    <Property Name="Memoria" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Disco" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Departamento">
+    <Key>
+      <PropertyRef Name="IDDepartamento" />
+    </Key>
+    <Property Name="IDDepartamento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descricao" Type="nchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Marca">
+    <Key>
+      <PropertyRef Name="IDMarca" />
+    </Key>
+    <Property Name="IDMarca" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descricao" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Monitor">
+    <Key>
+      <PropertyRef Name="IDMonitor" />
+    </Key>
+    <Property Name="IDMonitor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NrPatrimonio" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="IDDepartamento" Type="int" Nullable="false" />
+    <Property Name="Tamanho" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IDMarca" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Processador">
+    <Key>
+      <PropertyRef Name="IDProcessador" />
+    </Key>
+    <Property Name="IDProcessador" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descricao" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Tipo">
+    <Key>
+      <PropertyRef Name="IDTipo" />
+    </Key>
+    <Property Name="IDTipo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descricao" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Computadores_Departamento">
+    <End Role="Departamento" Type="Self.Departamento" Multiplicity="1" />
+    <End Role="Computadores" Type="Self.Computadores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departamento">
+        <PropertyRef Name="IDDepartamento" />
+      </Principal>
+      <Dependent Role="Computadores">
+        <PropertyRef Name="IDDepartamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Computadores_Marca">
+    <End Role="Marca" Type="Self.Marca" Multiplicity="1" />
+    <End Role="Computadores" Type="Self.Computadores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Marca">
+        <PropertyRef Name="IDMarca" />
+      </Principal>
+      <Dependent Role="Computadores">
+        <PropertyRef Name="IDMarca" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Computadores_Processador">
+    <End Role="Processador" Type="Self.Processador" Multiplicity="1" />
+    <End Role="Computadores" Type="Self.Computadores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Processador">
+        <PropertyRef Name="IDProcessador" />
+      </Principal>
+      <Dependent Role="Computadores">
+        <PropertyRef Name="IDProcessador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Computadores_Tipo">
+    <End Role="Tipo" Type="Self.Tipo" Multiplicity="1" />
+    <End Role="Computadores" Type="Self.Computadores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo">
+        <PropertyRef Name="IDTipo" />
+      </Principal>
+      <Dependent Role="Computadores">
+        <PropertyRef Name="IDTipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Monitor_Departamento">
+    <End Role="Departamento" Type="Self.Departamento" Multiplicity="1" />
+    <End Role="Monitor" Type="Self.Monitor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departamento">
+        <PropertyRef Name="IDDepartamento" />
+      </Principal>
+      <Dependent Role="Monitor">
+        <PropertyRef Name="IDDepartamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Monitor_Marca">
+    <End Role="Marca" Type="Self.Marca" Multiplicity="1" />
+    <End Role="Monitor" Type="Self.Monitor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Marca">
+        <PropertyRef Name="IDMarca" />
+      </Principal>
+      <Dependent Role="Monitor">
+        <PropertyRef Name="IDMarca" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PerifericosModelStoreContainer">
+    <EntitySet Name="Computadores" EntityType="Self.Computadores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Departamento" EntityType="Self.Departamento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Marca" EntityType="Self.Marca" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Monitor" EntityType="Self.Monitor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Processador" EntityType="Self.Processador" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tipo" EntityType="Self.Tipo" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Computadores_Departamento" Association="Self.FK_Computadores_Departamento">
+      <End Role="Departamento" EntitySet="Departamento" />
+      <End Role="Computadores" EntitySet="Computadores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Computadores_Marca" Association="Self.FK_Computadores_Marca">
+      <End Role="Marca" EntitySet="Marca" />
+      <End Role="Computadores" EntitySet="Computadores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Computadores_Processador" Association="Self.FK_Computadores_Processador">
+      <End Role="Processador" EntitySet="Processador" />
+      <End Role="Computadores" EntitySet="Computadores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Computadores_Tipo" Association="Self.FK_Computadores_Tipo">
+      <End Role="Tipo" EntitySet="Tipo" />
+      <End Role="Computadores" EntitySet="Computadores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Monitor_Departamento" Association="Self.FK_Monitor_Departamento">
+      <End Role="Departamento" EntitySet="Departamento" />
+      <End Role="Monitor" EntitySet="Monitor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Monitor_Marca" Association="Self.FK_Monitor_Marca">
+      <End Role="Marca" EntitySet="Marca" />
+      <End Role="Monitor" EntitySet="Monitor" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

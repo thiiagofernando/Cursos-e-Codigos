@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Wallet.Models.Movimento>
+@using GridMvc.Html
+@{
+    ViewBag.Title = "Extrato";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Extrato</h2>
+<h4>Pesquisar</h4>
+<form action="#" method="post">
+    <div class="row">
+        <div class="col-sm-3">
+            <input type="number" name="NrPeriodo" class="form-control" placeholder="Nº Periodo" />
+        </div>
+        <div class="col-sm-3">
+            <input type="submit" class="btn btn-success" value="Pesquisar" />
+        </div>
+
+    </div>
+    <hr />
+    @Html.Grid(Model).Columns(columns =>
+        {
+            columns.Add(p => p.IDMovimento).Titled("Codigo").SetWidth(110);
+            columns.Add(p => p.Categoria.Descricao).Titled("Descrição");
+            columns.Add(p => p.Categoria.Tipo).Titled("Tipo");
+            columns.Add(p => p.DtLancamento).Titled("Data").Format("{0:dd/MM/yyyy}");
+            columns.Add(p => p.NrPeriodo).Titled("Periodo");
+            columns.Add(p => p.Valor).Titled("Valor");
+        }).WithPaging(6).Sortable(true).Filterable(true)
+
+        <table class="table table-striped">
+
+            @{
+                var total = 0.0;
+
+            }
+
+            @foreach (var item in Model)
+            {
+                if (item.Categoria.Tipo == "Entrada")
+                {
+                    total = total + Convert.ToDouble(item.Valor);
+                }
+                else
+                {
+                    total = total - Convert.ToDouble(item.Valor);
+                }
+            }
+            <tr>
+                <td>
+                    @if (total >= 0)
+                {
+                        <span class="text-primary">Saldo R$:@total</span>
+                    }
+                    else
+                    {
+                        <span class="text-danger">Saldo R$:@total</span>
+                    }
+                </td>
+                <td></td>
+
+            </tr>
+        </table>
+        <a href="~/Movimento/Extrato" class="btn btn-info">Atualizar</a><br />
+        

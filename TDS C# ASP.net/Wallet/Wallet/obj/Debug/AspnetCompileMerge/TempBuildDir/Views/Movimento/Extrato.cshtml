@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Wallet.Models.Movimento>
+@{
+    ViewBag.Title = "Extrato";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Extrato</h2>
+<table class="table table-striped">
+    <tr>
+        <td>Codigo</td>
+        <td>Descrição do Movimento</td>
+        <td>Tipo</td>
+        <td>Data</td>
+        <td>Periodo</td>
+        <td>Valor</td>
+        <td>Saldo após Lancamento</td>
+        <td></td>
+    </tr>
+    @{ 
+        var total = 0.0;
+       
+    }
+
+    @foreach (var item in Model)
+    {
+        if (item.Categoria.Tipo == "Entrada")
+        {
+            total = total + Convert.ToDouble(item.Valor);
+        }
+        else
+        {
+            total = total - Convert.ToDouble(item.Valor);
+        }
+
+        <tr>
+            <td>@item.IDMovimento</td>
+            <td>@item.Categoria.Descricao</td>
+            <td>@item.Categoria.Tipo</td>
+            <td>@item.DtLancamento</td>
+            <td>@item.NrPeriodo</td>
+            <td>
+            @if(item.Categoria.Tipo == "Entrada")
+            {
+                <span class="text-primary">R$ @item.Valor c</span>
+            }
+            else
+            {
+                <span class="text-danger">R$ @item.Valor d</span>
+            }
+            </td>
+            <td>
+                @if (total >= 0)
+                {
+                    <span class="text-primary">@total</span>
+                }
+                else
+                {
+                    <span class="text-danger">@total</span>
+                }
+
+            </td>
+            <td></td>            
+        </tr>
+ 
+    }
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>  
+        <td></td>
+        <td>Saldo: @total</td>
+        <td></td>
+        
+    </tr>
+</table>

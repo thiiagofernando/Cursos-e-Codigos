@@ -1,0 +1,75 @@
+﻿@model Equipamentos.Computadores
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Computadores</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NrPratrimonio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NrPratrimonio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Memoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Memoria)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Disco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Disco)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Departamento.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Departamento.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Marca.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Marca.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Processador.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Processador.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tipo.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tipo.Descricao)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IDComputador }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

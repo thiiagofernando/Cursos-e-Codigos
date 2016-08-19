@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Equipamentos.Computadores>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Computadores</h2>
+
+<p>
+    <input type="button" class="btn btn-success" value="Novo" onclick="Create"/>
+    <input type="button">@Html.ActionLink("Novo", "Create")</input>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            <label>Nº Patrimonio</label>
+        </th>
+        <th>
+            <label>Memoria</label>
+        </th>
+        <th>
+            <label>HD</label>
+        </th>
+        <th>
+            <label>Departamento</label>
+        </th>
+        <th>
+            <label>Marca</label>
+        </th>
+        <th>
+            <label>Processador</label>
+        </th>
+        <th>
+            <label>Tipo</label>
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NrPratrimonio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Memoria)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Disco)
+        </td>
+        <td>
+            
+            @Html.DisplayFor(modelItem => item.Departamento.Descricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Marca.Descricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Processador.Descricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tipo.Descricao)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IDComputador }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IDComputador }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IDComputador })
+        </td>
+    </tr>
+}
+
+</table>

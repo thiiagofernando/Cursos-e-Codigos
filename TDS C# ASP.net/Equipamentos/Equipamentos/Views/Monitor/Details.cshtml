@@ -1,0 +1,51 @@
+﻿@model Equipamentos.Monitor
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Monitor</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NrPatrimonio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NrPatrimonio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tamanho)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tamanho)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Departamento.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Departamento.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Marca.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Marca.Descricao)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IDMonitor }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

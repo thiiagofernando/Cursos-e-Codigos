@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PerifericosModelStoreContainer" CdmEntityContainer="PerifericosEntities">
+    <EntitySetMapping Name="Computadores">
+      <EntityTypeMapping TypeName="PerifericosModel.Computadores">
+        <MappingFragment StoreEntitySet="Computadores">
+          <ScalarProperty Name="IDComputador" ColumnName="IDComputador" />
+          <ScalarProperty Name="NrPratrimonio" ColumnName="NrPratrimonio" />
+          <ScalarProperty Name="IDDepartamento" ColumnName="IDDepartamento" />
+          <ScalarProperty Name="IDTipo" ColumnName="IDTipo" />
+          <ScalarProperty Name="IDMarca" ColumnName="IDMarca" />
+          <ScalarProperty Name="IDProcessador" ColumnName="IDProcessador" />
+          <ScalarProperty Name="Memoria" ColumnName="Memoria" />
+          <ScalarProperty Name="Disco" ColumnName="Disco" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departamento">
+      <EntityTypeMapping TypeName="PerifericosModel.Departamento">
+        <MappingFragment StoreEntitySet="Departamento">
+          <ScalarProperty Name="IDDepartamento" ColumnName="IDDepartamento" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Marca">
+      <EntityTypeMapping TypeName="PerifericosModel.Marca">
+        <MappingFragment StoreEntitySet="Marca">
+          <ScalarProperty Name="IDMarca" ColumnName="IDMarca" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Monitor">
+      <EntityTypeMapping TypeName="PerifericosModel.Monitor">
+        <MappingFragment StoreEntitySet="Monitor">
+          <ScalarProperty Name="IDMonitor" ColumnName="IDMonitor" />
+          <ScalarProperty Name="NrPatrimonio" ColumnName="NrPatrimonio" />
+          <ScalarProperty Name="IDDepartamento" ColumnName="IDDepartamento" />
+          <ScalarProperty Name="Tamanho" ColumnName="Tamanho" />
+          <ScalarProperty Name="IDMarca" ColumnName="IDMarca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Processador">
+      <EntityTypeMapping TypeName="PerifericosModel.Processador">
+        <MappingFragment StoreEntitySet="Processador">
+          <ScalarProperty Name="IDProcessador" ColumnName="IDProcessador" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tipo">
+      <EntityTypeMapping TypeName="PerifericosModel.Tipo">
+        <MappingFragment StoreEntitySet="Tipo">
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="IDTipo" ColumnName="IDTipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

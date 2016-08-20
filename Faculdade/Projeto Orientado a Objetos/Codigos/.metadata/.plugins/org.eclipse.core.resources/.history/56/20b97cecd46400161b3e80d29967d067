@@ -1,0 +1,15 @@
+package Area;
+import java.util.Scanner;
+
+public class TrapezioArea {
+
+	public static void main(String[] args) {
+			float 
+		
+		System.out.println("A area é : " + area);
+		
+		
+
+	}
+
+}

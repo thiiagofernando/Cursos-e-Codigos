@@ -1,0 +1,29 @@
+package While;
+
+import java.util.Scanner;
+
+public class Calculadora {
+
+	public static void main(String[] args) {
+		double  PrimeiroValor, SegundoValor,somar,multiplica,dividir,subtrair;
+		int op;
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Informe o Primeiro Valor");
+		PrimeiroValor = scan.nextFloat();
+		System.out.println("Informe o Segundo Valor");
+		SegundoValor = scan.nextFloat();
+		
+		System.out.println("Operações Disponiveis");
+		System.out.println("1 - Soma  2- Subtração");
+		System.out.println("3 - Multiplicação  4- Divisão");
+		System.out.println("Informe a Operação");
+		op = scan.nextInt();
+		
+		do(op != 0)
+		{
+			
+		}
+
+		}
+}

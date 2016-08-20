@@ -1,0 +1,12 @@
+package Aluno;
+
+public class Media {
+
+	public static void main(String[] args) {
+		double media1, media2,faltas,aulas;
+		
+		aulas = 20; 
+
+	}
+
+}

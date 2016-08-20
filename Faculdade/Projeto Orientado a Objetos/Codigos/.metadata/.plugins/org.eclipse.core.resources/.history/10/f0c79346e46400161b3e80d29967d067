@@ -1,0 +1,54 @@
+package While;
+
+import java.util.Scanner;
+
+public class Calculadora {
+
+	public static void main(String[] args) {
+		double  PrimeiroValor, SegundoValor,somar,multiplica,dividir,subtrair;
+		int op;
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Informe o Primeiro Valor");
+		PrimeiroValor = scan.nextFloat();
+		System.out.println("Informe o Segundo Valor");
+		SegundoValor = scan.nextFloat();
+		
+		System.out.println("Operações Disponiveis");
+		System.out.println("1 - Soma  2- Subtração");
+		System.out.println("3 - Multiplicação  4- Divisão");
+		System.out.println("Informe a Operação");
+		op = scan.nextInt();
+		
+	    
+		do {
+			
+			System.out.println("Operações Disponiveis");
+			System.out.println("1 - Soma  2- Subtração");
+			System.out.println("3 - Multiplicação  4- Divisão");
+			System.out.println("Informe a Operação");
+			op = scan.nextInt();			
+			
+		} while (op != 0 );
+			System.out.println("Sistema Encerrado");
+		}
+	switch (op) {
+	case 1:
+		System.out.println("A soma dos Valores é :" + (PrimeiroValor + SegundoValor));
+		break;
+	
+	case 2:
+		System.out.println("A subtração dos Valores é :" + (PrimeiroValor - SegundoValor));
+		break;
+		
+	case 3:
+		System.out.println("A multiplicação dos Valores é :" + (PrimeiroValor * SegundoValor));
+		break;
+		
+	case 4:
+		System.out.println("A divisão dos Valores é :" + (PrimeiroValor / SegundoValor));
+		break;
+	}
+	
+
+}

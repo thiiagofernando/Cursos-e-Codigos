@@ -1,0 +1,15 @@
+package Area;
+
+public class TrapezioArea {
+
+	public static void main(String[] args) {
+		double altura = 12;
+		double bmenor = 10;
+		double bmaior = 30;
+		double calcular = (altura*(bmenor + bmaior))/2;
+		
+		System.out.println("A area é : " + calcular);
+
+	}
+
+}

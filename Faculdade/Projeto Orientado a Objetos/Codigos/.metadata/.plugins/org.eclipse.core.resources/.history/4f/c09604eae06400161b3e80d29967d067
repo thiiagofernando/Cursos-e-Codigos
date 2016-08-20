@@ -1,0 +1,34 @@
+package CALC;
+
+import java.util.Scanner;
+
+public class CalculadorCase {
+
+	public static void main(String[] args) {
+		
+		double  PrimeiroValor, SegundoValor,somar,multiplica,
+		dividir,subtrair;
+		int op;
+		
+		//recebe os valores
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Informe o Primeiro Valor");
+		PrimeiroValor = scan.nextFloat();
+		System.out.println("Informe o Segundo Valor");
+		SegundoValor = scan.nextFloat();
+		
+		System.out.println("Informe a Operação");
+		op = scan.nextInt();
+		
+		switch (op) {
+		case 1:
+			System.out.println("A soma dos Valores é :" + (PrimeiroValor + SegundoValor));
+			break;
+
+		default:
+			break;
+		}
+
+	}
+
+}

@@ -55,6 +55,7 @@ namespace Wallet.Controllers
             return RedirectToAction("CadastrarDespesa");
         }
 
+
         [HttpGet]
         public ActionResult CadastrarReceita(int? pagina)
         {
@@ -105,6 +106,15 @@ namespace Wallet.Controllers
             return View(movimentos);
 
             
+        }
+
+        public ActionResult Busca(string NrPeriodo)
+        {
+            int periodo = Convert.ToInt32(NrPeriodo);
+            var movimentos = db.Movimento
+                            .Where(m => m.IDUsuario == CurrentUser.IdUsuario 
+                            && m.NrPeriodo == periodo).ToList();
+            return View("Extrato", movimentos);
         }
 
         // GET: Movimento

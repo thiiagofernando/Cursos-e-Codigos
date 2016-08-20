@@ -246,6 +246,7 @@
     <Content Include="scripts\gridmvc.js" />
     <Content Include="scripts\gridmvc.lang.ru.js" />
     <Content Include="scripts\gridmvc.min.js" />
+    <None Include="Properties\PublishProfiles\webwallet.pubxml" />
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="scripts\jquery-1.9.1.js" />
     <Content Include="scripts\jquery-1.9.1.min.js" />

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="dbWalletEntities-Web.config Connection String" description="dbWalletEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.ModelWallet.csdl|res://*/Models.ModelWallet.ssdl|res://*/Models.ModelWallet.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=THIIAGOFERNANDO\SQLEXPRESS;initial catalog=dbWallet;persist security info=True;user id=sa;password=21293175;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ThiagoFernando\\OneDrive\\Cursos\\Cursos-e-Codigos\\TDS\ C\#\ ASP\.net\\Wallet\ -\ Paginação\\Wallet\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='dbWalletEntities']/@connectionString" />
+  </parameter>
+  <parameter name="dbWalletConnectionString-Web.config Connection String" description="dbWalletConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=THIIAGOFERNANDO\SQLEXPRESS;Initial Catalog=dbWallet;Persist Security Info=True;User ID=sa;Password=21293175;MultipleActiveResultSets=True;Application Name=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ThiagoFernando\\OneDrive\\Cursos\\Cursos-e-Codigos\\TDS\ C\#\ ASP\.net\\Wallet\ -\ Paginação\\Wallet\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='dbWalletConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

@@ -7,7 +7,7 @@
 
 <h2>Extrato</h2>
 <h4>Pesquisar</h4>
-<form action="#" method="post">
+<form action="/Movimento/Busca" method="post">
     <div class="row">
         <div class="col-sm-3">
             <input type="number" name="NrPeriodo" class="form-control" placeholder="Nº Periodo" />
@@ -18,7 +18,7 @@
 
     </div>
     <hr />
-    @Html.Grid(Model).Columns(columns =>
+        @Html.Grid(Model).Columns(columns =>
         {
             columns.Add(p => p.IDMovimento).Titled("Codigo").SetWidth(110);
             columns.Add(p => p.Categoria.Descricao).Titled("Descrição");
@@ -62,3 +62,4 @@
             </tr>
         </table>
         <a href="~/Movimento/Extrato" class="btn btn-info">Atualizar</a><br />
+        

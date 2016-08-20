@@ -30,6 +30,10 @@
                         <li><a href="~/Movimento/CadastrarDespesa">Lançar Despesa</a></li>
                         <li><a href="~/Movimento/CadastrarReceita">Lançar Receita</a></li>
                         <li><a href="~/Movimento/Extrato">Extratos</a></li>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li><a href="~/Usuario/Index">Usuários</a></li>
+                        }
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li>

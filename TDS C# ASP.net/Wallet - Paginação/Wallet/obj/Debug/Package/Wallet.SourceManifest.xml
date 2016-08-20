@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <DbDacFx path="C:\Users\ThiagoFernando\OneDrive\Cursos\Cursos-e-Codigos\TDS C# ASP.net\Wallet - Paginação\Wallet\obj\Debug\AutoScripts\dbWalletConnectionString_IncrementalSchemaOnly.dacpac" dacpacAction="Deploy" />
+  <appHostConfig path="" />
+  <contentPath path="C:\Users\ThiagoFernando\OneDrive\Cursos\Cursos-e-Codigos\TDS C# ASP.net\Wallet - Paginação\Wallet\obj\Debug\Package\PackageTmp" />
+</sitemanifest>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">"Hello World2 "</string>
+    <string name="vermelho">Vermelho</string>
+    <string name="azul">Azul</string>
+    <string name="verde">Verde</string>
+    <string name="selecione_as_cores">Selecione as Cores</string>
+</resources>

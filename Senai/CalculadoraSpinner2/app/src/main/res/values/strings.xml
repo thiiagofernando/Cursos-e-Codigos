@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CalculadoraSpinner</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="textValor2">Insira Segundo Valor</string>
+    <string name="textValor1">Insira Primeiro Valor</string>
+    <string-array name="operacoes">
+        <item>Somar</item>
+        <item>Subtrair</item>
+        <item>Multiplicar</item>
+        <item>Dividir</item>
+    </string-array>
+</resources>
